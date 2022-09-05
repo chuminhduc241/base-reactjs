@@ -1,0 +1,68 @@
+.az-product-item {
+    position: relative;
+    border-top: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -khtml-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    flex: 0 0 20%;
+    max-width: 20%;
+    .az-overflow {
+        overflow: hidden;
+        padding: 15px 10px 15px;
+        position: relative;
+        height: 100%;
+        .az-sale-label {
+            z-index: 1;
+            width: 40px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            background-color: #eb1c24;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            margin-bottom: 15px;
+            position: absolute;
+            border-radius: 4px;
+        }
+        .nt-img {
+            position: relative;
+            margin-bottom: 20px;
+            img {
+                overflow: hidden;
+                transition: 0.3s all;
+                margin-bottom: 20px;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .az-box-product-des {
+            color: #3d8dc9;
+            outline: 0 !important;
+            .az-title-post {
+                color: #444;
+                font-size: 14px;
+                font-weight: 400;
+                min-height: 32px;
+            }
+            .az-price {
+                ins {
+                    text-decoration: none;
+                    font-size: 17px;
+                    color: #eb1c24;
+                    font-weight: 500;
+                }
+                del {
+                    font-size: 13px;
+                    color: #858584;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

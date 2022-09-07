@@ -6,12 +6,14 @@ import PublicRoute from './publicRoute';
 import PrivateRoute from './PrivateRoute';
 import Login from '~/pages/user/Login';
 import Register from '~/pages/user/Register';
+import Gallery from '~/pages/user/Gallery/Gallery';
 // Public routes
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/profile', component: Profile },
     { path: '/login', component: Login },
     { path: '/register', component: Register },
+    { path: '/gallery', component: Gallery },
 ];
 
 const privateRoutes = [];

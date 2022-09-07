@@ -18,6 +18,7 @@
         "classnames": "^2.3.1",
         "formik": "^2.2.9",
         "history": "^5.3.0",
+        "lightgallery": "^2.6.0",
         "lodash": "^4.17.21",
         "normalize.css": "^8.0.1",
         "react": "^18.1.0",
@@ -28,9 +29,9 @@
         "react-slick": "^0.29.0",
         "redux": "^4.1.2",
         "redux-persist": "^6.0.0",
-        "yup": "^0.32.11",
         "slick-carousel": "^1.8.1",
-        "web-vitals": "^2.1.4"
+        "web-vitals": "^2.1.4",
+        "yup": "^0.32.11"
     },
     "devDependencies": {
         "babel-plugin-module-resolver": "^4.1.0",
